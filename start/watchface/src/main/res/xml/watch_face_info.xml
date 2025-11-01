@@ -18,4 +18,6 @@
 <WatchFaceInfo>
 
   <!-- TODO: Add the Preview and Editable elements here -->
+  <Preview value="@drawable/preview" /> <!-- Lovation of the preview image -->
+  <Editable value="true" /> <!-- Declare the watch face as customizable -->
 </WatchFaceInfo>

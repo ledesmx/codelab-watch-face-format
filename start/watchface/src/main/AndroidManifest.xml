@@ -23,10 +23,14 @@
   <!-- TODO: Add the hasCode attribute to application -->
   <application
     android:label="@string/watch_face_name"
-    *** Add hasCode attribute *** >
+    android:hasCode="false" >
 
 
   <!-- TODO: Add the WFF version property here -->
+    <property
+      android:name="com.google.wear.watchface.format.version"
+      android:value="1" />
+      <!-- Version 1 means it will work on Wear OS 4 (API level 33) and upwards -->
 
 
     <meta-data android:name="com.google.android.wearable.standalone"
